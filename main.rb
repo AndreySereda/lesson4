@@ -54,7 +54,7 @@ if selection == 1
  2 - check all question id
  3 - check first question id
  4 - check last question id
- 5 - id search using index
+ 5 - seach question id using text
 )
   choice = gets.chomp.to_i
 
@@ -79,7 +79,7 @@ elsif selection == 2
  2 - check all variants id
  3 - check first variants id
  4 - check last variants id
- 5 - id search using index
+ 5 - seach variant id using text
 )
   pick = gets.chomp.to_i
 
